@@ -15,8 +15,8 @@ test:
 development:
   adapter: postgresql
   database: bfr_webapp_db
-  username: <%= ENV['DB_DEV_USER'] %>
-  password: <%= ENV['DB_DEV_PASSWORD'] %>
-  host: localhost
+  username: postgres
+  password:
+  host: db
   pool: 5
   timeout: 5000
